@@ -3,11 +3,13 @@ const http = require('http');
 
 const port = process.env.PORT || 3000;
 
+/*  mysql://ba0f15f1b7dd07:52bd3ec5@us-cdbr-east-03.cleardb.com/heroku_8894ceefd666e21?reconnect=true  */
+
 const dbConfig = {
-	host: "host",
-	user: "user",
-	password: "password",
-	database: "database",
+	host: "us-cdbr-east-03.cleardb.com",
+	user: "ba0f15f1b7dd07",
+	password: "52bd3ec5",
+	database: "heroku_8894ceefd666e21",
 	multipleStatements: false,
 	reconnect: true
 };
